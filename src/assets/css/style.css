@@ -1,0 +1,8 @@
+/* setting */
+@import "../css/setting/fonts.css";
+@import "../css/setting/vars.css";
+@import "../css/setting/reset.css";
+
+/* section */
+@import "../css/section/header.css";
+@import "../css/section/intro.css";

@@ -1,0 +1,46 @@
+:root {
+    --mainEng-font: "Montserrat";
+    --mainKor-font: "nanumSquareNeo";
+    --mainNum-font: "gmarekt";
+
+    --mainBg-color: #fff;
+    --mainFont-color: #c1c1c1;
+
+    --subBg100: #b6b6c9;
+    --subBg200: #c1c1c1;
+    --subBg300: #c1c1c1;
+    --subBg400: #c1c1c1;
+    --subBg500: #c1c1c1;
+    --subBg600: #c1c1c1;
+
+    --white: #fff;
+
+    --black: #000;
+    --black100: #000;
+    --black200: #000;
+    --black300: #000;
+    --black400: #000;
+    --black500: #000;
+    --black600: #000;
+
+    /* 기본 폰트 설정 */
+    font-family: var(--mainEng-font), var(--mainKor-font);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    -webkit-text-size-adjust: 100%;
+}
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+
+body {
+    color: var(--black);
+    background-color: var(--mainBg-color);
+    font-family: "NanumSquareNeo";
+}
