@@ -6,3 +6,7 @@
 /* section */
 @import "../css/section/header.css";
 @import "../css/section/intro.css";
+@import "../css/section/skill.css";
+@import "../css/section/site.css";
+@import "../css/section/port.css";
+@import "../css/section/contact.css";
