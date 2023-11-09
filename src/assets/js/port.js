@@ -5,7 +5,6 @@ export function port() {
     gsap.registerPlugin(ScrollTrigger);
     const horSection = gsap.utils.toArray(".port__item");
     const pin = document.querySelector(".pin-spacer");
-    // pin.style.backgroundColor = "black";
     gsap.to(horSection, {
         xPercent: -120 * (horSection.length - 1),
         ease: "none",

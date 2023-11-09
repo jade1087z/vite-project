@@ -20,7 +20,11 @@
 
 ## 트러블 슈 팅
 
+-   gsap scrollTrigger 사용 가로스크롤 모드를 적용할 때 원치 않는 여백이 발생함
+    동적으로 생기는 여백에 색을 줄것이 아니라 body와 html 태그에 전체적으로 적용해 여백을 없앴음
+-   gsap 활용 및 첫 install시 버전을 확인 잘 할 것.
 <details>
 <summary>-git 업로드 설정;</summary>
-error: failed to push some refs to 'origin'
+-   error: failed to push some refs to 'origin'
+-   초기 설정시 origin main을 사용하는 방법은 잘못되었음
 <details>

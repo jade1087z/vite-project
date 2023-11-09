@@ -6,7 +6,10 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-
+body,
+html {
+    background-color: var(--black100);
+}
 /* 여백 초기화 */
 body,
 div,
